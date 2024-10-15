@@ -1,0 +1,17 @@
+section{
+    background: rgb(2,0,36) ;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left: 0;
+    weight: 100% ;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.5 s;
+    padding: 30px 20 px;
+    z-index: 10;
+
+}
+

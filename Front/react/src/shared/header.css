@@ -1,0 +1,9 @@
+.count-products {
+  color: #fff;
+  font-size: 12px;
+  padding: 0px 4px;
+  background-color: #333;
+  border-radius: 50%;
+  position: relative;
+  top: -8px;
+}

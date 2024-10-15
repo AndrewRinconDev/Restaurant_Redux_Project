@@ -1,0 +1,37 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "- [x] ¿ Que es NodeJS ?\r - [X] ¿Que se puede desarrollar en NodeJS?\r   -> Aplicaciones web de tipo SPA (Single Page Application)\r   -> Desarrollo de APIS REST FULL (Permite manipulación de datos contra una base de datos)\r   -> Manejador de archivos\r   -> Aplicaciones de tiempo real (Aplicación de rastreo, una aplicación de chat, una aplicación de apuestas de futbol)\r   -> Aplicaciones de consola (CLI Command Line Interface)\r   -> Desarrollos personalizados (Servidor Web, Servidor de Archivos, Servidor Streaming)\r   -> Desarrollo de plataformas colaborativas (Una aplicación de tareas, que involucre un equipo de trabajo)\r - [X] Que es un ODM  (Object Document Mapper) -> Mapeador de documentos (mongodb, kassandra, dynamoDB)\r - [X] Que es un ORM  (Object Relational Mapper) -> Mapeador de objetos relacionales (mysql, sql, postgresql)\r - [X] Que es Prisma.io Typescript\r - [X] Express -> Framework (me facilita la creación de rutas, la exposición de un servidor web http, la creación de middlewares)\r - [X] Postgresql\r - [X] Mongo\r - [X] Verbos HTTP\r - [] Backend de pedidos (clientes, pedidos, productos, categorias)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.ts --exec ts-node",
+    "start": "ts-node ./src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.7.0",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.10.3",
+    "nodemon": "^3.0.2",
+    "prisma": "^5.7.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  }
+}

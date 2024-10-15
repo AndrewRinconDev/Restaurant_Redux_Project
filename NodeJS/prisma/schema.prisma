@@ -1,0 +1,83 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Usuarios {
+id String @id @default(auto()) @map("_id") @db.ObjectId
+nombres String
+apellidos String
+correo String @unique
+clave String
+role String
+fechaCreacion DateTime @default(now())
+fechaActualizacion DateTime @default(now())
+}
+
+model Clientes {
+id String @id @default(auto()) @map("_id") @db.ObjectId
+tipoDocumento String 
+noDocumento String @unique
+edad Int
+nombres String
+apellidos String
+correo String @unique
+telefono String
+direccion String
+ciudad String
+notas String
+pedidos Pedidos[]
+fechaCreacion DateTime @default(now())
+fechaActualizacion DateTime @default(now())
+}
+
+model Productos {
+id String @id @default(auto()) @map("_id") @db.ObjectId
+nombre String
+precio String
+imagen String @default("https://via.placeholder.com/300")
+categoria Categorias @relation(fields: [categoriaId], references: [id])
+categoriaId String @db.ObjectId()
+descripcion String
+pedidosItems PedidosItems[]
+fechaCreacion DateTime @default(now())
+fechaActualizacion DateTime @default(now())
+}
+
+model Categorias {
+id String @id @default(auto()) @map("_id") @db.ObjectId
+nombre String
+productos Productos[]
+fechaCreacion DateTime @default(now())
+fechaActualizacion DateTime @default(now())
+}
+
+model Pedidos {
+id String @id @default(auto()) @map("_id") @db.ObjectId
+cliente Clientes @relation(fields: [clienteId], references: [id])
+clienteId String @db.ObjectId
+pedidosItems PedidosItems[]
+subtotal String
+total String
+fechaCreacion DateTime @default(now())
+fechaActualizacion DateTime @default(now())
+}
+
+model PedidosItems {
+id String @id @default(auto()) @map("_id") @db.ObjectId
+producto Productos @relation(fields: [productoId], references: [id])
+productoId String @db.ObjectId
+cantidad Int
+subtotal String
+pedidos Pedidos @relation(fields: [pedidosId], references: [id], onDelete: Cascade)
+pedidosId String @db.ObjectId
+fechaCreacion DateTime @default(now())
+fechaActualizacion DateTime @default(now())
+}

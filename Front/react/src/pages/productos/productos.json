@@ -1,0 +1,168 @@
+{
+  "categorias": [
+    {
+      "nombre": "entradas",
+      "productos": [
+        {
+          "nombre": "Ceviche de camarones",
+          "precio": "25000",
+          "descripcion": "Camarones frescos marinados con limón y especias",
+          "imagen": "https://image.lexica.art/full_webp/1c0f7605-a422-498f-aa47-5d6864534f61"
+        },
+        {
+          "nombre": "Empanadas de Queso",
+          "precio": "12000",
+          "descripcion": "Empanadas crujientes rellenas de queso derretido",
+          "imagen": "https://img.freepik.com/foto-gratis/vista-superior-pasteles-carne-caseros-belyashi-bandeja-madera-oscura_140725-12559.jpg?w=360&t=st=1706477938~exp=1706478538~hmac=ed89cb69da01d265b505cc4eebd0ca19f8dbf875e52a3aa7742b9bedf92004e2"
+        },
+        {
+          "nombre": "Bruschetta de Tomate",
+          "precio": "18000",
+          "descripcion": "Pan tostado con tomate fresco, ajo y albahaca",
+          "imagen": "https://img.freepik.com/foto-gratis/sandwiches-queso-crema-tomates-placa_23-2148749079.jpg?w=740&t=st=1706478484~exp=1706479084~hmac=32adbcdf9e8c14306223daaeb6d6644203d81f61cb8d8ba863e868c05675cb1c"
+        },
+        {
+          "nombre": "Calamares a la Romana",
+          "precio": "22000",
+          "descripcion": "Calamares tiernos y crujientes acompañados de salsa de ajo",
+          "imagen": "https://img.freepik.com/foto-gratis/aros-cebolla-servidos-lechuga-salsa_141793-1228.jpg?w=360&t=st=1706478571~exp=1706479171~hmac=6819719539cb34a61a03ae2a0dcfc6a062a607209398518d47c9a5a701e4cbdf"
+        },
+        {
+          "nombre": "Ensalada Caprese",
+          "precio": "15000",
+          "descripcion": "Tomate, mozzarella y albahaca frescos con aderezo balsámico",
+          "imagen": "https://assets.elgourmet.com/wp-content/uploads/2023/03/c1498a89491d5b2542a1c1acc0b9df23_3_3_photo-1024x683.png.webp"
+        },
+        {
+          "nombre": "Tartar de Aguacate",
+          "precio": "20000",
+          "descripcion": "Aguacate fresco picado con cebolla, cilantro y limón",
+          "imagen": "https://content-cocina.lecturas.com/medio/2023/04/19/tartar-de-aguacate-y-langostinos_34ba47fb_1280x720.jpg"
+        }
+      ]
+    },
+    {
+      "nombre": "platos fuertes",
+      "productos": [
+        {
+          "nombre": "Lomo de Res a la Parrilla",
+          "precio": "45000",
+          "descripcion": "Lomo de res jugoso y tierno, cocido a la parrilla",
+          "imagen": "https://simplementerecetas.com/wp-content/uploads/2020/01/Lomo-de-res-asado.png"
+        },
+        {
+          "nombre": "Pasta Alfredo con Pollo",
+          "precio": "35000",
+          "descripcion": "Fettuccine en salsa Alfredo con trozos tiernos de pollo",
+          "imagen": "https://www.cocinamalher.com/sites/default/files/2021-10/Malher_web_1041.jpg"
+        },
+        {
+          "nombre": "Salmón a la Miel y Mostaza",
+          "precio": "42000",
+          "descripcion": "Salmón glaseado con miel y mostaza, acompañado de verduras",
+          "imagen": "https://d2j9trpqxd6hrn.cloudfront.net/uploads/recipe/main_image/605/como_hacer_un_salmon_con_miel_y_mostaza.webp"
+        },
+        {
+          "nombre": "Parrillada de Mariscos",
+          "precio": "50000",
+          "descripcion": "Variedad de mariscos a la parrilla con salsa de ajo y limón",
+          "imagen": "https://img-global.cpcdn.com/recipes/2dadf0841441b9dc/1200x630cq70/photo.jpg"
+        },
+        {
+          "nombre": "Risotto de Champiñones",
+          "precio": "38000",
+          "descripcion": "Risotto cremoso con champiñones frescos y queso parmesano",
+          "imagen": "https://i.blogs.es/b64bf1/risotto-de-setas/840_560.jpg"
+        },
+        {
+          "nombre": "Pechuga de Pollo Rellena",
+          "precio": "40000",
+          "descripcion": "Pechuga de pollo rellena de espinacas y queso feta",
+          "imagen": "https://s1.eestatic.com/2015/02/08/cocinillas/cocinillas_9509169_115982813_1706x960.jpg"
+        }
+      ]
+    },
+    {
+      "nombre": "postres",
+      "productos": [
+        {
+          "nombre": "Tiramisú",
+          "precio": "15000",
+          "descripcion": "Postre italiano con capas de bizcocho empapado en café y crema de mascarpone",
+          "imagen": "https://img2.rtve.es/v/6897051?w=1600&preview=1684846584492.jpg"
+        },
+        {
+          "nombre": "Coulant de Chocolate",
+          "precio": "18000",
+          "descripcion": "Pastel de chocolate caliente con centro líquido",
+          "imagen": "https://cdn.recetasderechupete.com/wp-content/uploads/2022/09/Coulant-youtube.jpg"
+        },
+        {
+          "nombre": "Helado de Vainilla con Frutas",
+          "precio": "12000",
+          "descripcion": "Helado de vainilla con frutas frescas",
+          "imagen": "https://s3.amazonaws.com/static.om.anigamy.net/static.biennatural.com.ar/App/Article/2-deliciosos-postres-con-frutas-y-helado-de-vainilla-5880-mainImage-2.jpg"
+        },
+        {
+          "nombre": "Cheesecake de Fresa",
+          "precio": "16000",
+          "descripcion": "Cheesecake cremoso con topping de fresas frescas",
+          "imagen": "https://img.freepik.com/foto-gratis/vista-lateral-tarta-fresa_140725-11353.jpg?w=740&t=st=1706654108~exp=1706654708~hmac=4e098824038852ec7a3e1ac3b4b02bf7e0c66b9d4cb83aef7fe66afa68f5b07d"
+        },
+        {
+          "nombre": "Mousse de Mango",
+          "precio": "14000",
+          "descripcion": "Mousse ligero de mango con salsa de frutas",
+          "imagen": "https://i.ytimg.com/vi/81UCUxvggeA/maxresdefault.jpg"
+        },
+        {
+          "nombre": "Crepas de Nutella y Plátano",
+          "precio": "16000",
+          "descripcion": "Crepas rellenas de Nutella y rodajas de plátano",
+          "imagen": "https://assets.elgourmet.com/wp-content/uploads/2023/03/crepp_CjHgnphKIkUF3iRTf07P9Dovm56WrY.png"
+        }
+      ]
+    },
+    {
+      "nombre": "bebidas",
+      "productos": [
+        {
+          "nombre": "Margarita de Fresa",
+          "precio": "18000",
+          "descripcion": "Cóctel refrescante con tequila, licor de fresa y limón",
+          "imagen": "https://images.hola.com/imagenes/cocina/recetas/20200217160838/margarita-frozen-fresas-lima/0-784-719/margarita-adobe-t.jpg"
+        },
+        {
+          "nombre": "Jugo Natural de Naranja",
+          "precio": "8000",
+          "descripcion": "Jugo fresco de naranja recién exprimido",
+          "imagen": "https://gourmetbilbao.com/wp-content/uploads/2017/06/Gourmet-Bilbao-38.jpg"
+        },
+        {
+          "nombre": "Agua Mineral",
+          "precio": "5000",
+          "descripcion": "Agua mineral natural",
+          "imagen": "https://image.lexica.art/full_webp/01852d06-5a92-4fc6-97cd-856ad55fcbc8"
+        },
+        {
+          "nombre": "Café Espresso",
+          "precio": "6000",
+          "descripcion": "Café fuerte y concentrado",
+          "imagen": "https://mundodelcafe.es/wp-content/uploads/2018/04/Historia-del-Cafe-Espresso.jpeg"
+        },
+        {
+          "nombre": "Mojito de Menta",
+          "precio": "16000",
+          "descripcion": "Cóctel cubano con ron, menta fresca, limón y soda",
+          "imagen": "https://i.blogs.es/1457b8/como-preparar-mojitos-trucos-lotes-grandes-amigos-bebida-coctel/840_560.jpg"
+        },
+        {
+          "nombre": "Smoothie de Frutas Tropicales",
+          "precio": "12000",
+          "descripcion": "Batido cremoso con mango, piña y plátano",
+          "imagen": "https://doriumtropicalgold.com/wp-content/uploads/como-preparar-smoothies-con-fruta-tropical-scaled.jpg"
+        }
+      ]
+    }
+  ]
+}
